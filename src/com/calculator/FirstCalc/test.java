@@ -104,7 +104,6 @@ public class test {
         System.out.println(localResult);
         originator.setData(holder, secondNumber, localResult);
         caretaker.addMemento(originator.saveData());
-        System.out.println(caretaker.savedStates.size());
     }
 
     private static void doUndo() {
